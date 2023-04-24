@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "name": "김규혁",
+    "image": "images/profile",
+    "skill": ["html", "js", "react"],
+    "introduce": ["김규혁 소개글"],
+    "projectImage": "images/project",
+    "projectTitle": "김규혁 프로젝트",
+    "projectDesc": "김규혁 프로젝트에 대한 설명",
+    "projectURL": "https://www.google.com/",
+    "githubURL": "https://github.com/MacAir1",
+    "velogURL": "https://velog.io"
+  },
+  {
+    "id": 1,
+    "name": "박범진",
+    "image": "images/ParkProfileImage",
+    "skill": ["html", "css", "js", "react"],
+    "introduce": ["박범진 소개글"],
+    "projectImage": "images/project",
+    "projectTitle": "박범진 프로젝트",
+    "projectDesc": "박범진 프로젝트에 대한 설명",
+    "projectURL": "https://www.google.com/",
+    "githubURL": "https://github.com/ATTIPARK",
+    "velogURL": "https://velog.io/@bpark14"
+  },
+  {
+    "id": 2,
+    "name": "이현진",
+    "image": "images/profile",
+    "skill": ["html", "solidity"],
+    "introduce": ["이현진 소개글"],
+    "projectImage": "images/project",
+    "projectTitle": "이현진 프로젝트",
+    "projectDesc": "이현진 프로젝트에 대한 설명",
+    "projectURL": "https://www.google.com/",
+    "githubURL": "https://github.com/lhjbg0821",
+    "velogURL": "https://velog.io/@lhjbg0821"
+  },
+  {
+    "id": 3,
+    "name": "조성윤",
+    "image": "images/profile",
+    "skill": ["react", "solidity"],
+    "introduce": ["조성윤 소개글"],
+    "projectImage": "images/project",
+    "projectTitle": "조성윤 프로젝트",
+    "projectDesc": "조성윤 프로젝트에 대한 설명",
+    "projectURL": "https://www.google.com/",
+    "githubURL": "https://github.com/HunterJoe9",
+    "velogURL": "https://velog.io/@hunterjoe98"
+  },
+  {
+    "id": 4,
+    "name": "최주연",
+    "image": "images/ChoiProfileImage",
+    "skill": ["html", "css", "js", "react", "solidity"],
+    "introduce": [
+      "버티자!🔥 버티면 다 되는거야~!",
+      "안녕하세요! 버티자를 실전중인 최주연이라고 합니다.😊",
+      "지금까지 배운 PART1과 PART2의 내용을 종합적으로 복습해 볼 수 있는 프로젝트를 준비해 보았습니다.",
+      "기본적인 홈페이지 구성 및 디자인과 간단한 게임클론코딩을 해보았는데, 첫 도전인 만큼 많이 서툴고 부족한 점이 많습니다.",
+      "그래도 열심히 만들어 봤으니 구경해주세요💚💚💚",
+      "완벽한 개발자가 되는 그날까지 화이팅🔥"
+    ],
+    "projectImage": "images/ChoiProjectImage",
+    "projectTitle": "🤩두더지를 잡아라!🤩",
+    "projectDesc": "굴에서 나오는 두더지를 클릭하면 점수(1점)를 얻을 수 있어요. 폭탄을 클릭하면 목숨이 차감되니 조심하세요!",
+    "projectURL": "https://www.google.com/",
+    "githubURL": "https://github.com/Choi-jujuyeon",
+    "velogURL": "https://velog.io/@chlwndus1216"
+  }
+]
