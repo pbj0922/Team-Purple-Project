@@ -27,7 +27,7 @@ function Modal({ idData, popup, PopupToggle }) {
             <div className="ml-24 flex flex-col justify-center items-center">
               <div className="bg-purple-300 h-[400px] w-80  border-8 border-black rounded-xl flex justify-center items-center">
                 <img
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-fit"
                   src={`${process.env.PUBLIC_URL}/${teamData[idData].image}.png`}
                 />
               </div>
@@ -41,9 +41,15 @@ function Modal({ idData, popup, PopupToggle }) {
                   <div className="text-center font-bold text-2xl bg-purple-300 border-8 border-black rounded-xl py-3">
                     {teamData[idData].projectTitle}
                   </div>
-                  <div className="bg-purple-300 h-96 w-96 mt-4 border-8 border-black rounded-xl text-center">
-                    <div className="p-4">{teamData[idData].projectDesc}</div>
-                  </div>
+                  <ul className="bg-purple-300 h-96 w-96 mt-4 border-8 border-black rounded-xl text-start pt-4">
+                    {teamData[idData].projectDesc.map((v, i) => {
+                      return (
+                        <li className="px-4 pt-1" key={i}>
+                          {v}
+                        </li>
+                      );
+                    })}
+                  </ul>
                 </div>
               </div>
             </div>

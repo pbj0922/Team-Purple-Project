@@ -46,7 +46,7 @@ const Portfolio = ({ TeamData }) => {
           <div className="font-bold text-4xl underline text-white">
             자기소개
           </div>
-          <ul className="text-xl mt-4 text-white">
+          <ul className="text-xl mt-4 text-white flex flex-col gap-1">
             {TeamData.introduce.map((v, i) => {
               return <li key={i}>{v}</li>;
             })}
@@ -58,18 +58,22 @@ const Portfolio = ({ TeamData }) => {
         <div className="bg-purple-500 border-8 border-white p-5 rounded-xl w-[600px] h-[600px] flex flex-col gap-2 justify-center items-center">
           <div
             onClick={() => handleOpenNewTab(TeamData.projectURL)}
-            className="bg-black w-[400px] h-[250px] flex justify-center items-center border-8 border-black rounded-xl"
+            className="bg-black w-[400px] h-[300px] flex justify-center items-center border-8 border-black rounded-xl"
           >
             <img
-              className="w-full h-full object-cover rounded-md"
+              className="w-full h-full object-fit rounded-md"
               src={`${process.env.PUBLIC_URL}/${TeamData.projectImage}.png`}
             />
-            <div className="absolute w-[400px] h-[250px] flex justify-center items-center text-white font-bold opacity-0 hover:opacity-60 hover:bg-black rounded-xl">
+            <div className="absolute w-[400px] h-[300px] flex justify-center items-center text-white font-bold opacity-0 hover:opacity-60 hover:bg-black rounded-xl">
               이미지 클릭시 사이트로 이동
             </div>
           </div>
           <div className="mt-3 font-bold text-xl">{TeamData.projectTitle}</div>
-          <div>{TeamData.projectDesc}</div>
+          <ul className="flex flex-col text-center">
+            {TeamData.projectDesc.map((v, i) => {
+              return <li key={i}>{v}</li>;
+            })}
+          </ul>
         </div>
       </div>
     </>

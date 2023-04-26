@@ -2,59 +2,93 @@
   {
     "id": 0,
     "name": "김규혁",
-    "image": "images/profile",
-    "skill": ["html", "js", "react"],
-    "introduce": ["김규혁 소개글"],
-    "projectImage": "images/project",
-    "projectTitle": "김규혁 프로젝트",
-    "projectDesc": "김규혁 프로젝트에 대한 설명",
-    "projectURL": "https://www.google.com/",
+    "image": "images/Kim/KimProfileImage",
+    "skill": ["html", "css", "js", "react"],
+    "introduce": [
+      "Tic-Tac-Toe (틱택토) 게임을 제작한 개발자 김규혁입니다",
+      "게임 제작은 처음이어서 간단한 구조를 가진 게임을 선택했고 , 제작 과정에서 어떤 원리로 승리 판정을 내리는지, 의도하지 않게 작동하는것을 어떻게 방지하는지 확인 할 수 있었습니다.",
+      "수업에서 배운 내용만 활용하여서 제작하는것은 쉽지 않아서, js 와 css를 활용하여 제작하였습니다."
+    ],
+    "projectImage": "images/Kim/KimProjectImage",
+    "projectTitle": "Tic-Tac-Toe",
+    "projectDesc": [
+      "3줄 연속으로 선택시 승리하는 게임",
+      "이미 클릭된 곳은 클릭이 되지 않게하며, 3줄 연속 선택이 확인되는 즉시 게임 종료",
+      "3줄 연속을 확인하는 방법은 각각의 칸에 인덱스를 부여하여 미리 만들어져있는 승리조건에 부합하면 승리 처리"
+    ],
+    "projectURL": "https://pleasessss.vercel.app/",
     "githubURL": "https://github.com/MacAir1",
-    "velogURL": "https://velog.io"
+    "velogURL": "https://velog.io/@swift4925"
   },
   {
     "id": 1,
     "name": "박범진",
-    "image": "images/ParkProfileImage",
+    "image": "images/Park/ParkProfileImage",
     "skill": ["html", "css", "js", "react"],
-    "introduce": ["박범진 소개글"],
-    "projectImage": "images/project",
+    "introduce": [
+      "안녕하세요, 개발자를 꿈꾸고 있는 박범진입니다.",
+      "저희 보라팀은 메인 홈페이지를 만들고 각자의 미니 프로젝트를 진행하였습니다",
+      "프로젝트를 배포한후 각 포트폴리오 페이지를 연결"
+    ],
+    "projectImage": "images/Park/ParkProjectImage",
     "projectTitle": "박범진 프로젝트",
-    "projectDesc": "박범진 프로젝트에 대한 설명",
-    "projectURL": "https://www.google.com/",
+    "projectDesc": [
+      "4x4 16칸의 블록에서 키보드를 이용해서 플레이",
+      "숫자 2 또는 4를 가진 블록 랜덤으로 생성",
+      "키보드로 방향이동시 같은 숫자끼리 합쳐서 새로운 블록을 변환",
+      "결과적으로 2048의 숫자를 가진 블록을 만들면 게임 끝"
+    ],
+    "projectURL": "https://2048-clone-coding.vercel.app/",
     "githubURL": "https://github.com/ATTIPARK",
     "velogURL": "https://velog.io/@bpark14"
   },
   {
     "id": 2,
     "name": "이현진",
-    "image": "images/profile",
-    "skill": ["html", "solidity"],
-    "introduce": ["이현진 소개글"],
-    "projectImage": "images/project",
-    "projectTitle": "이현진 프로젝트",
-    "projectDesc": "이현진 프로젝트에 대한 설명",
-    "projectURL": "https://www.google.com/",
+    "image": "images/Lee/LeeProfileImage",
+    "skill": ["html", "css", "js", "react"],
+    "introduce": [
+      "안녕하세요. 개발자 이현진입니다.",
+      "홈페이지 제작 및 간단한 게임 클론코딩을 진행했습니다.",
+      "아직 많이 부족하지만 열심히 공부해서 더 나은 개발자가 되겠습니다.",
+      "화이팅..!🔥"
+    ],
+    "projectImage": "images/Lee/LeeProjectImage",
+    "projectTitle": "Flappy Bird",
+    "projectDesc": [
+      "스페이스 바를 누르면  새가 점프합니다.",
+      "파이프 사이를 통과할 때마다 1점씩 증가합니다.",
+      "파이프에 닿으면 게임 종료!"
+    ],
+    "projectURL": "https://flappy-bird-rho.vercel.app/",
     "githubURL": "https://github.com/lhjbg0821",
     "velogURL": "https://velog.io/@lhjbg0821"
   },
   {
     "id": 3,
     "name": "조성윤",
-    "image": "images/profile",
-    "skill": ["react", "solidity"],
-    "introduce": ["조성윤 소개글"],
-    "projectImage": "images/project",
+    "image": "images/Jo/JoProfileImage",
+    "skill": ["html", "css", "js", "react"],
+    "introduce": [
+      "열정사자 보라팀에 합류하게 된 조성윤입니다.",
+      "1~6주차까지 배운내용과 새로운 내용을 접목시켜서 테트리스(클론)를 구현해봤습니다.",
+      "기존 자바스크립트만으로도 충분히 좋은 프로젝트를 할 수 있다고 느꼈습니다."
+    ],
+    "projectImage": "images/Jo/JoProjectImage",
     "projectTitle": "조성윤 프로젝트",
-    "projectDesc": "조성윤 프로젝트에 대한 설명",
-    "projectURL": "https://www.google.com/",
+    "projectDesc": [
+      "1. 방향키↑를 눌러 원하는 방향에 맞게 돌리세요",
+      "2. 끝없는 블록으로 선을 깨끗하게 유지하십시오",
+      "3. 추가 블록을위한 공간이 없으면 게임 오버"
+    ],
+    "projectURL": "https://tetris-clone-2.vercel.app/",
     "githubURL": "https://github.com/HunterJoe9",
     "velogURL": "https://velog.io/@hunterjoe98"
   },
   {
     "id": 4,
     "name": "최주연",
-    "image": "images/ChoiProfileImage",
+    "image": "images/Choi/ChoiProfileImage",
     "skill": ["html", "css", "js", "react", "solidity"],
     "introduce": [
       "버티자!🔥 버티면 다 되는거야~!",
@@ -64,10 +98,13 @@
       "그래도 열심히 만들어 봤으니 구경해주세요💚💚💚",
       "완벽한 개발자가 되는 그날까지 화이팅🔥"
     ],
-    "projectImage": "images/ChoiProjectImage",
+    "projectImage": "images/Choi/ChoiProjectImage",
     "projectTitle": "🤩두더지를 잡아라!🤩",
-    "projectDesc": "굴에서 나오는 두더지를 클릭하면 점수(1점)를 얻을 수 있어요. 폭탄을 클릭하면 목숨이 차감되니 조심하세요!",
-    "projectURL": "https://www.google.com/",
+    "projectDesc": [
+      "굴에서 나오는 두더지를 클릭하면 점수(1점)를 얻을 수 있어요.",
+      "폭탄을 클릭하면 목숨이 차감되니 조심하세요!"
+    ],
+    "projectURL": "https://game-mauve-eta.vercel.app/",
     "githubURL": "https://github.com/Choi-jujuyeon",
     "velogURL": "https://velog.io/@chlwndus1216"
   }
