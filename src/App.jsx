@@ -23,6 +23,7 @@ function App() {
           <Route path="/" element={<Main isBlackNWhite={isBlackNWhite} />} />
           <Route path="/portfolio/:portfolioId" element={<PortfolioPage />} />
           <Route path="*" element={<NotFound />}></Route>
+          <div>hello</div>
         </Routes>
         <Footer isBlackNWhite={isBlackNWhite} />
       </div>
