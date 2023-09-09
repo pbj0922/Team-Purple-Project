@@ -20,3 +20,10 @@
 - Portfolio Box 에서 각자의 데이터들을 받아와서 정보를 입력된 상태로 보여준다
 - 이름옆에 github 와 velog 버튼은 클릭시 새로운 창에서 각자의 github 와 velog로 이동한다
 - Project Box 에서 이미지를 클릭시 프로젝트가 구현된 사이트로 이동
+
+# Project Image
+![캡처_2023_09_09_23_16_14_727](https://github.com/pbj0922/Team-Purple-Project/assets/107535534/f3a8542b-a87a-4ccb-a713-f9bd3c1ffdb8)
+![캡처_2023_09_09_23_16_24_737](https://github.com/pbj0922/Team-Purple-Project/assets/107535534/859dc6c7-6e18-4659-9de6-9611a8dd0c78)
+![캡처_2023_09_09_23_16_42_292](https://github.com/pbj0922/Team-Purple-Project/assets/107535534/8adc1b3c-7956-442e-b6fc-ae9858008a7b)
+![캡처_2023_09_09_23_16_49_267](https://github.com/pbj0922/Team-Purple-Project/assets/107535534/e2c4e407-e0a8-4cee-9fac-d6471ee4b7c4)
+![캡처_2023_09_09_23_17_17_771](https://github.com/pbj0922/Team-Purple-Project/assets/107535534/5dc939bf-0384-4c70-9ebc-ca70c2506680)
